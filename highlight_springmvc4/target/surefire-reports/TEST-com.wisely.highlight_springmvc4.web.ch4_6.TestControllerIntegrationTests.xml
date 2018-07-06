@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.03" errors="2" skipped="0" tests="2" name="com.wisely.highlight_springmvc4.web.ch4_6.TestControllerIntegrationTests">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_13\jre\bin"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="F:\workspace-sts-3.9.4\highlight_springmvc4"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\workspace-sts-3.9.4\highlight_springmvc4"/>
+    <property name="java.runtime.version" value="1.7.0_13-b20"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="F:\workspace-sts-3.9.4\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7191407851399749947.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.7.0_13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_152/bin/client;C:/Program Files (x86)/Java/jre1.8.0_152/bin;C:/Program Files (x86)/Java/jre1.8.0_152/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 &amp; MySQL Utilities 1.5.2 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.2 &amp; MySQL Utilities 1.5.2 1.5\Doctrine extensions for PHP\;C:\Program Files (x86)\Java\jdk1.7.0_13\bin;D:\Program Files\Git\cmd;E:\DevelopTools\apache-maven-3.5.0\bin;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;E:\DevelopTools\spring-tool-suite-3.9.4.RELEASE-e4.7.3a-win32\sts-bundle\sts-3.9.4.RELEASE;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="E:\DevelopTools\spring-tool-suite-3.9.4.RELEASE-e4.7.3a-win32\sts-bundle\sts-3.9.4.RELEASE\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.7.0_13\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_13"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.7.0_13\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="F:\workspace-sts-3.9.4\highlight_springmvc4\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.029" classname="com.wisely.highlight_springmvc4.web.ch4_6.TestControllerIntegrationTests" name="testRestController">
+    <error message="Unresolved compilation problems: 
+	The method get(String) is undefined for the type TestControllerIntegrationTests
+	The method status() is undefined for the type TestControllerIntegrationTests
+	The method content() is undefined for the type TestControllerIntegrationTests
+	The method content() is undefined for the type TestControllerIntegrationTests
+" type="java.lang.Error">java.lang.Error: Unresolved compilation problems: 
+	The method get(String) is undefined for the type TestControllerIntegrationTests
+	The method status() is undefined for the type TestControllerIntegrationTests
+	The method content() is undefined for the type TestControllerIntegrationTests
+	The method content() is undefined for the type TestControllerIntegrationTests
+
+	at com.wisely.highlight_springmvc4.web.ch4_6.TestControllerIntegrationTests.testRestController(TestControllerIntegrationTests.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:73)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:224)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>logbak: 15:42:50.073 o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+logbak: 15:42:50.095 o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1420a71, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@bb94d9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@129642c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6fa30c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1397663]
+logbak: 15:42:50.162 o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+logbak: 15:42:50.162 o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+logbak: 15:42:50.165 o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+logbak: 15:42:50.167 o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+logbak: 15:42:50.167 o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+logbak: 15:42:50.198 o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@a85692: startup date [Fri Apr 27 15:42:50 CST 2018]; root of context hierarchy
+logbak: 15:42:50.200 o.s.w.c.s.StandardServletEnvironment - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+logbak: 15:42:50.201 o.s.w.c.s.GenericWebApplicationContext - Bean factory for org.springframework.web.context.support.GenericWebApplicationContext@a85692: org.springframework.beans.factory.support.DefaultListableBeanFactory@d600e3: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,myMvcConfig]; root of factory hierarchy
+logbak: 15:42:50.409 o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - JSR-330 &apos;javax.inject.Inject&apos; annotation found and supported for autowiring
+logbak: 15:42:50.425 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean &apos;org.springframework.scheduling.annotation.SchedulingConfiguration&apos; of type [class org.springframework.scheduling.annotation.SchedulingConfiguration$$EnhancerBySpringCGLIB$$3b6a0b21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+logbak: 15:42:50.448 o.s.w.c.s.GenericWebApplicationContext - Unable to locate MessageSource with name &apos;messageSource&apos;: using default [org.springframework.context.support.DelegatingMessageSource@35028b]
+logbak: 15:42:50.449 o.s.w.c.s.GenericWebApplicationContext - Unable to locate ApplicationEventMulticaster with name &apos;applicationEventMulticaster&apos;: using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1f0c408]
+logbak: 15:42:50.575 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Looking for request mappings in application context: org.springframework.web.context.support.GenericWebApplicationContext@a85692: startup date [Fri Apr 27 15:42:50 CST 2018]; root of context hierarchy
+logbak: 15:42:50.586 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/anno/pathvar/{str}],methods=[],params=[],headers=[],consumes=[],produces=[text/plain;charset=UTF-8],custom=[]}&quot; onto public java.lang.String com.wisely.highlight_springmvc4.web.ch4_3.DemoAnnoController.demoPathVar(java.lang.String,javax.servlet.http.HttpServletRequest)
+logbak: 15:42:50.586 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/anno/obj],methods=[],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}&quot; onto public java.lang.String com.wisely.highlight_springmvc4.web.ch4_3.DemoAnnoController.passObj(com.wisely.highlight_springmvc4.domain.DemoObj,javax.servlet.http.HttpServletRequest)
+logbak: 15:42:50.587 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/anno/requestParam],methods=[],params=[],headers=[],consumes=[],produces=[text/plain;charset=UTF-8],custom=[]}&quot; onto public java.lang.String com.wisely.highlight_springmvc4.web.ch4_3.DemoAnnoController.passRequestParam(java.lang.Long,javax.servlet.http.HttpServletRequest)
+logbak: 15:42:50.587 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/anno/name1 || /anno/name2],methods=[],params=[],headers=[],consumes=[],produces=[text/plain;charset=UTF-8],custom=[]}&quot; onto public java.lang.String com.wisely.highlight_springmvc4.web.ch4_3.DemoAnnoController.remove(javax.servlet.http.HttpServletRequest)
+logbak: 15:42:50.587 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/anno],methods=[],params=[],headers=[],consumes=[],produces=[text/plain;charset=UTF-8],custom=[]}&quot; onto public java.lang.String com.wisely.highlight_springmvc4.web.ch4_3.DemoAnnoController.index(javax.servlet.http.HttpServletRequest)
+logbak: 15:42:50.588 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/rest/getjson],methods=[],params=[],headers=[],consumes=[],produces=[application/json;charset=UTF-8],custom=[]}&quot; onto public com.wisely.highlight_springmvc4.domain.DemoObj com.wisely.highlight_springmvc4.web.ch4_3.DemoRestController.getjson(com.wisely.highlight_springmvc4.domain.DemoObj)
+logbak: 15:42:50.588 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/rest/getxml],methods=[],params=[],headers=[],consumes=[],produces=[application/xml;charset=UTF-8],custom=[]}&quot; onto public com.wisely.highlight_springmvc4.domain.DemoObj com.wisely.highlight_springmvc4.web.ch4_3.DemoRestController.getxml(com.wisely.highlight_springmvc4.domain.DemoObj)
+logbak: 15:42:50.588 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/advice],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.wisely.highlight_springmvc4.web.ch4_4.AdviceController.getSomething(java.lang.String,com.wisely.highlight_springmvc4.domain.DemoObj)
+logbak: 15:42:50.589 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/defer],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.web.context.request.async.DeferredResult&lt;java.lang.String&gt; com.wisely.highlight_springmvc4.web.ch4_5.AysncController.deferredCall()
+logbak: 15:42:50.589 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/convert],methods=[POST],params=[],headers=[],consumes=[],produces=[application/x-wisely],custom=[]}&quot; onto public com.wisely.highlight_springmvc4.domain.DemoObj com.wisely.highlight_springmvc4.web.ch4_5.ConverterController.convert(com.wisely.highlight_springmvc4.domain.DemoObj)
+logbak: 15:42:50.589 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/push],methods=[],params=[],headers=[],consumes=[],produces=[text/event-stream],custom=[]}&quot; onto public java.lang.String com.wisely.highlight_springmvc4.web.ch4_5.SseController.push()
+logbak: 15:42:50.590 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/upload],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.wisely.highlight_springmvc4.web.ch4_5.UploadController.upload(org.springframework.web.multipart.MultipartFile)
+logbak: 15:42:50.590 o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/index],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.lang.String com.wisely.highlight_springmvc4.web.HelloController.hello()
+logbak: 15:42:50.599 o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/sse] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+logbak: 15:42:50.599 o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/index] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+logbak: 15:42:50.599 o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/converter] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+logbak: 15:42:50.599 o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/async] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+logbak: 15:42:50.599 o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toUpload] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+logbak: 15:42:50.604 o.s.w.s.h.BeanNameUrlHandlerMapping - Looking for URL mappings in application context: org.springframework.web.context.support.GenericWebApplicationContext@a85692: startup date [Fri Apr 27 15:42:50 CST 2018]; root of context hierarchy
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;org.springframework.context.annotation.internalRequiredAnnotationProcessor&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;myMvcConfig&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;exceptionHandlerAdvice&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;demoService&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;pushService&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;demoAnnoController&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;demoRestController&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;adviceController&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;aysncController&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;converterController&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;sseController&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;uploadController&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;helloController&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;org.springframework.scheduling.annotation.SchedulingConfiguration&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;org.springframework.context.annotation.internalScheduledAnnotationProcessor&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;mvcValidator&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;requestMappingHandlerMapping&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;mvcContentNegotiationManager&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;viewControllerHandlerMapping&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;beanNameHandlerMapping&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;resourceHandlerMapping&apos;: no URL paths identified
+logbak: 15:42:50.605 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;mvcResourceUrlProvider&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;defaultServletHandlerMapping&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;requestMappingHandlerAdapter&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;mvcUriComponentsContributor&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;httpRequestHandlerAdapter&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;handlerExceptionResolver&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;simpleControllerHandlerAdapter&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;mvcConversionService&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;mvcPathMatcher&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;mvcUrlPathHelper&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;mvcViewResolver&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;viewResolver&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;converter&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;demoInterceptor&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;multipartResolver&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;environment&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;systemProperties&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;systemEnvironment&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;servletContext&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;contextParameters&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;contextAttributes&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;messageSource&apos;: no URL paths identified
+logbak: 15:42:50.606 o.s.w.s.h.BeanNameUrlHandlerMapping - Rejected bean name &apos;applicationEventMulticaster&apos;: no URL paths identified
+logbak: 15:42:50.610 o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/assets/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+logbak: 15:42:50.838 o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@a85692: startup date [Fri Apr 27 15:42:50 CST 2018]; root of context hierarchy
+logbak: 15:42:50.840 o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @ModelAttribute methods in exceptionHandlerAdvice
+logbak: 15:42:50.841 o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Detected @InitBinder methods in exceptionHandlerAdvice
+logbak: 15:42:50.869 o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Looking for exception mappings: org.springframework.web.context.support.GenericWebApplicationContext@a85692: startup date [Fri Apr 27 15:42:50 CST 2018]; root of context hierarchy
+logbak: 15:42:50.871 o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in exceptionHandlerAdvice
+logbak: 15:42:50.895 o.s.w.c.s.GenericWebApplicationContext - Unable to locate LifecycleProcessor with name &apos;lifecycleProcessor&apos;: using default [org.springframework.context.support.DefaultLifecycleProcessor@1360f8e]
+logbak: 15:42:50.896 o.s.w.s.resource.ResourceUrlProvider - Looking for resource handler mappings
+logbak: 15:42:50.897 o.s.w.s.resource.ResourceUrlProvider - Found resource handler mapping: URL pattern=&quot;/assets/**&quot;, locations=[class path resource [assets/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@5a40f]
+logbak: 15:42:50.930 o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+logbak: 15:42:50.931 o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+logbak: 15:42:50.931 o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+logbak: 15:42:50.931 o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+logbak: 15:42:50.931 o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+logbak: 15:42:50.931 o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet &apos;&apos;
+logbak: 15:42:50.931 o.s.t.w.s.TestDispatcherServlet - FrameworkServlet &apos;&apos;: initialization started
+logbak: 15:42:50.939 o.s.t.w.s.TestDispatcherServlet - FrameworkServlet &apos;&apos;: initialization completed in 8 ms
+</system-out>
+  </testcase>
+  <testcase time="0.001" classname="com.wisely.highlight_springmvc4.web.ch4_6.TestControllerIntegrationTests" name="testNormalController">
+    <error message="Unresolved compilation problems: 
+	The method get(String) is undefined for the type TestControllerIntegrationTests
+	The method status() is undefined for the type TestControllerIntegrationTests
+	The method view() is undefined for the type TestControllerIntegrationTests
+	The method forwardedUrl(String) is undefined for the type TestControllerIntegrationTests
+	The method model() is undefined for the type TestControllerIntegrationTests
+" type="java.lang.Error">java.lang.Error: Unresolved compilation problems: 
+	The method get(String) is undefined for the type TestControllerIntegrationTests
+	The method status() is undefined for the type TestControllerIntegrationTests
+	The method view() is undefined for the type TestControllerIntegrationTests
+	The method forwardedUrl(String) is undefined for the type TestControllerIntegrationTests
+	The method model() is undefined for the type TestControllerIntegrationTests
+
+	at com.wisely.highlight_springmvc4.web.ch4_6.TestControllerIntegrationTests.testNormalController(TestControllerIntegrationTests.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:73)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:82)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:73)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:224)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>logbak: 15:42:50.944 o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+logbak: 15:42:50.944 o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+logbak: 15:42:50.945 o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+logbak: 15:42:50.945 o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+logbak: 15:42:50.945 o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+logbak: 15:42:50.945 o.s.mock.web.MockServletContext - Initializing Spring FrameworkServlet &apos;&apos;
+logbak: 15:42:50.945 o.s.t.w.s.TestDispatcherServlet - FrameworkServlet &apos;&apos;: initialization started
+logbak: 15:42:50.946 o.s.t.w.s.TestDispatcherServlet - FrameworkServlet &apos;&apos;: initialization completed in 1 ms
+</system-out>
+  </testcase>
+</testsuite>

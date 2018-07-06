@@ -1,0 +1,15 @@
+#这里对 bootstrap.yml 做一下解释，Spring Cloud 应用提供使用 bootstrap.yml(bootstrap.properties) 负责从外部资源加载配置属性。
+spring:
+  application:
+    name: config #1 在 Eureka Server 注册的服务名为 config。
+  profiles:
+    active: native #2 配置服务器使用本地配置（默认为 git 配置）。
+    
+eureka:
+  instance:
+    non-secure-port: ${server.port:8888} #3 非 SSL 端口，若环境变量中 server.port 有值，则使用环境变量的值，没有则使用 8080。
+    metadata-map:
+      instanceId: ${spring.application.name}:${random.value} #4 配置在 Eureka Server 的实例 ID。
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/ #5 Eureka 客户端设置 Eureka Server 的地址。
