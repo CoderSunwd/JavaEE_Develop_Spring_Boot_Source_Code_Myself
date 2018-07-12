@@ -3,13 +3,9 @@
 章节目录：
 
     第一部分 点睛Spring 4.x
-    
     第1章 Spring基础
-    
     1.1 Spring概述
-    
-    1.2 Spring项目快速搭建
-    
+    1.2 Spring项目快速搭建    
     1.3 Spring基础配置
     第2章 Spring常用配置
     2.1 Bean的Scope
